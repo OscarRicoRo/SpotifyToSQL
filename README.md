@@ -1,2 +1,1 @@
-# DACD-Practice-1
-Spotify API + SQL
+# Spotify API + SQL
