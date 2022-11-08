@@ -15,8 +15,8 @@ import static java.net.HttpURLConnection.HTTP_OK;
 
 public class SpotifyAuthorization {
     private static final String ACCOUNT_BASE_URI = "https://accounts.spotify.com/api/token";
-    private static final String CLIENT_ID = "f87aef77dd834dc1afdf16378302ae72";
-    private static final String CLIENT_SECRET = "f048310c004c4621849aaa34bbb5a50b";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
 
     public static Token get() throws Exception {
         Token token = gson().fromJson(responseOf(request()), Token.class);
